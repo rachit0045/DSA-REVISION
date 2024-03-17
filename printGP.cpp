@@ -3,14 +3,14 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "enter the 'nth' term of AP :";
+    cout << "enter the 'n' term of GP: ";
     cin >> n;
-    int a = 1; // first term of AP
+    int a = 1;
     for (int i = 1; i <= n; i++)
     {
         cout << a;
         cout << " ,";
-        a += 2; // commondifference of AP
+        a *= 2;
     }
     return 0;
 }
